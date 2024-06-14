@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&family=Montserrat:ital,wght@0,900;1,900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRO WEB</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <script src="./java/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/0dfb09cd7e.js" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav__elements">
+                <a href="">
+                    <img src="./img/nav__logo.svg" alt="">
+                </a>
+                <div class="nav__links">
+                    <a href="#about">Sobre mi</a>
+                    <a href="#skills">Habilidades</a>
+                    <a href="#projects">Mis proyectos</a>
+                    <a href="#contacts">Contactos</a>
+                </div>
+                <div class="nav__mesanger">
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="header__elements">
+                <div class="header__info">
+                    <h1>
+                        Desarollador - WEB <br> Desde los 11 años
+                    </h1>
+                    <hr>
+                    <p>Todo de verdad! No es una broma!</p>
+                    <a href="">Saber más</a>
+                </div>
+                <img src="./img/header.png" class="header__photo"
+                    alt="">
+            </div>
+        </div>
+    </header>
+
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2>Sobre mi</h2>
+            <div class="about__elements">
+                <img src="./img/about.png" class="about__photo" alt="">
+                <p>
+                    Comencé a aprender programación a los 10 años y ahora solo tengo 14, pero ya he logrado un éxito
+                    significativo y me gustaría invitarte a colaborar en la creación de aplicaciones web. Me esfuerzo
+                    mucho y constantemente me sorprendo de lo que se puede crear con código. Mi talento y constancia
+                    demuestran que la edad no es un obstáculo para alcanzar tus objetivos.
+                    <br>
+                    <br>
+                    Confío en que el futuro será brillante y exitoso, y espero que podamos crear excelentes aplicaciones
+                    web juntos.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <div class="skills__elements">
+                <div class="skills__card">
+                    <div class="skills__icon">
+                        HTML
+                    </div>
+                    <p class="skills__text">
+                        Conozco bien HTML y puedo crear páginas web, estructurar contenido y mejorar diseños usando
+                        HTML5.
+                    </p>
+                </div>
+
+                <div class="skills__card">
+                    <div class="skills__icon">
+                        CSS
+                    </div>
+                    <p class="skills__text">
+                        Conozco bien CSS y puedo manipular el diseño, la tipografía y la combinación de colores para
+                        crear interfaces visualmente atractivas.
+                    </p>
+                </div>
+
+                <div class="skills__card">
+                    <div class="skills__icon">
+                        JS
+                    </div>
+                    <p class="skills__text">
+                        Conozco bien JavaScript, puedo crear páginas web dinámicas, administrar HTML/CSS y mejorar la
+                        funcionalidad.
+                    </p>
+                </div>
+
+                <div class="skills__card">
+                    <div class="skills__icon">
+                        FIGMA
+                    </div>
+                    <p class="skills__text">
+                        Conozco bien Figma y puedo crear interfaces de usuario, maquetas, prototipos y diseños de alta
+                        calidad.
+                    </p>
+                </div>
+
+                <div class="skills__card">
+                    <div class="skills__icon">
+                        BLENDER
+                    </div>
+                    <p class="skills__text">
+                        Conozco bien Blender y puedo crear modelos tridimensionales, animaciones, y efectos visuales de
+                        alta calidad.
+                    </p>
+                </div>
+
+                <div class="skills__card">
+                    <div class="skills__icon">
+                        LUA SCRIPT
+                    </div>
+                    <p class="skills__text">
+                        Conozco bien Lua Script y puedo utilizarlo para desarrollar aplicaciones y juegos con
+                        funcionalidades personalizadas y dinámicas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Mis proyectos</h2>
+            <div class="projects__elements">
+                <a href="" class="projects__link">
+                    <div class="project__wrap"></div>
+                    <div class="project__content">TOP 3</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+ <section class="contacts">
+        <div class="container">
+            <h2>Contactos</h2>
+            <p>Deja una solicitud y yo os contactare durante el dia</p>
+            <hr>
+            <form target="send" method="_blank" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdeu21AGZAITQ4zRQAaB5LUgpperJX5rzKXX8l9jStx4mWQCA/formResponse">
+                <iframe name="send" src="" frameborder="0"></iframe>
+                <div class="form__send">
+                Tu pregunta ha sido enviada correctamente!
+                </div>
+                <label for="name">Vuestro nombre</label>
+                <input id="name" type="text" name="entry.49243987" placeholder="Pon tu nombre">
+                <label for="email">Vuestro correo electrónico</label>
+                <input id="email" type="text" name="entry.2054442188" placeholder="Tu correo aqui">
+                <label for="coment">Comentario</label>
+                <textarea name="entry.1029151670" id="coment" placeholder="Deja un Comentario"></textarea>
+                <button type="submit">Enviar!</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer__elements">
+                <a href="">
+                    <img src="./img/nav__logo.svg" alt="">
+                </a>
+                <p>Todos los derechos estan protegidos y pertenecen a Daniil Knyazyev Bobkov</p>
+                <div class="footer__mesanger">
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
